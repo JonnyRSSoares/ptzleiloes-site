@@ -1,18 +1,4 @@
 {
-  "version": 2,
-  "buildCommand": "pnpm install && pnpm build",
-  "devCommand": "pnpm dev",
-  "installCommand": "pnpm install",
-  "framework": null,
-  "outputDirectory": "dist/public",
-  "routes": [
-    {
-      "src": "/api/(.* )",
-      "dest": "/api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/public"
 }
